@@ -51,8 +51,7 @@ Crearcanciones()
 
     else (mandar mensaje la cancion no se agrego)
 
-    }
-    }
+     }
 
     crearCanciones () {
     contador_canciones es cero
