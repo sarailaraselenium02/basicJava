@@ -1,0 +1,73 @@
+navegarPaginaDeSinatra ()
+Verificar los elementos de la pagina de sinatra ()
+Crearcanciones()
+
+}
+
+    navegarPaginaDeSinatra () {
+        ingresar la URL
+     }
+    Verificar los elementos de la pagina de sinatra () {
+        Validar que se muestre la imagen de sinatra
+        validar que se muestre el link de login
+     }
+    irSongs () {
+        validar el titulo de Songs
+        validar que se muestre link de Create a new song
+        validar que se muestre una lista de canciones
+        validar que se muestre link de log out
+    }
+    darClicLinkCreaNuevaCancion(){
+
+    }
+
+    verificarLosElementosDePaginaAgregarNuevaCancion () {
+        validar que se muestre el titulo de Add A New Song
+        validar que se muestre el campo Titulo
+        validar que se muestre el campo longitud
+        validar que se muestre el campo Fecha(mm/dd/yyyy)
+        validar que se muestre el campo Letra
+        validar que se muestre el boton guardar cancion
+        validar que se muestre link de log out
+    }
+
+    llenarElFormulariodeAgregarNuevaCancion () {
+        Ingresar un titulo
+        Ingresar Longitud
+        Ingresar Fecha
+        Ingresar Letra
+    }
+    darClicEnGuardarCancion () {
+
+    if(todos los campos no estan llenos){
+
+        llenarElFormulariodeAgregarNuevaCancion ()
+    }
+
+    }
+
+    validarQueSeCreoLaCanción () {
+    if(se muestre el mensaje Canción agregada exitosamente ){
+
+    else (mandar mensaje la cancion no se agrego)
+
+    }
+    }
+
+    crearCanciones () {
+    contador_canciones es cero
+
+    while (contador_canciones es cero ) {
+        crearCancio () {
+        irSongs ()
+            darClicLinkCreaNuevaCancion()
+            verificarLosElementosDePaginaAgregarNuevaCancion ()
+            llenarElFormulariodeAgregarNuevaCancion ()
+            darClicEnGuardarCancion ()
+            validarQueSeCreoLaCanción ()
+        }
+        sumar uno al contador_canciones
+    }
+
+
+

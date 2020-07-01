@@ -1,0 +1,37 @@
+probar crear canción
+Precondiciones
+    estar logeado
+
+Pasos
+    1.Navegar pagina de sinatra
+        ingresar la URL
+    2.Verificar los elementos de la pagina de sinatra
+        Validar que se muestre la imagen de sinatra
+        validar que se muestre el link de login
+    3.Ir a songs
+        validar el titulo de Songs
+        validar que se muestre link de Create a new song
+        validar que se muestre una lista de canciones
+        validar que se muestre link de log out
+    4.Dar clic en link de Create a new song
+    5.Verificar los elementos de la pagina Add A New Song
+        validar que se muestre el titulo de Add A New Song
+        validar que se muestre el campo Titulo
+        validar que se muestre el campo longitud
+        validar que se muestre el campo Fecha(mm/dd/yyyy)
+        validar que se muestre el campo Letra
+        validar que se muestre el boton guardar cancion
+        validar que se muestre link de log out
+    6.Ingresar un titulo
+    7.Ingresar Longitud
+    8.Ingresar Fecha
+    9.Ingresar Letra
+    10.Dar clic en guardar cancion
+    11.validar que se creo la canción
+        validar que se muestre el mensaje Canción agregada exitosamente
+        Validar que se muestre el nombre de la creción creada
+        validar que se muestre el link volver al índice de canciones
+        validar que se muestre el boton borrar cancion
+
+
+

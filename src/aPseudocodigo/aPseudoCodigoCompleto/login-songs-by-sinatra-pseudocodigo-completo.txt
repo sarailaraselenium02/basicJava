@@ -1,0 +1,24 @@
+probarLogincorrecto
+
+Pasos:
+
+    1.Navegar pagina de sinatra
+        ingresar la URL
+    2.Verificar los elementos de la pagina de sinatra
+        Validar que se muestre la imagen de sinatra
+        validar que se muestre el link de login
+    3.Dar clic en login
+    4.Verificar los elementos de la pagina de login
+        Validar que se muestre el campo Username
+        Validar que se muestre el campo Password
+        Validar que se muestre el boton de log in
+
+    5.Realizar login
+        ingresar el usuario de frank
+        ingresar el Password de sinatra
+        dar clic en el boton log in
+
+    7.Validar el acceso a login
+        validar que se muestre el mensaje You are now logged in as frank
+        validar que se muestre el link de Create a new song
+

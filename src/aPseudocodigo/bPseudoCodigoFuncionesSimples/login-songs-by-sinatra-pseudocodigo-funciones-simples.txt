@@ -1,0 +1,36 @@
+
+probarLoginCorrecto () {
+    navegarPaginaDeSinatra ()
+    verificarLosElementosHomepage ()
+    darClicEnLogin ()
+    verificarLosElementosDeLapaginaDeLogin()
+    realizarLogin ()
+    validarElAccesoLogin ()
+
+}
+
+    navegarPaginaDeSinatra () {
+        ingresar la URL
+     }
+    verificarLosElementosHomepage () {
+        Validar que se muestre la imagen de sinatra
+        validar que se muestre el link de login
+     }
+    darClicEnLogin () {
+
+    }
+    verificarLosElementosDeLapaginaDeLogin() {
+        Validar que se muestre el campo Username
+        Validar que se muestre el campo Password
+        Validar que se muestre el boton de log in
+    }
+    realizarLogin () {
+        ingresar el usuario de frank
+        ingresar el Password de sinatra
+        dar clic en el boton log in
+    }
+    validarElAccesoLogin () {
+        Validar que el acceso es correcto
+        validar que se muestre el mensaje You are now logged in as frank
+        validar que se muestre el link de Create a new song
+     }

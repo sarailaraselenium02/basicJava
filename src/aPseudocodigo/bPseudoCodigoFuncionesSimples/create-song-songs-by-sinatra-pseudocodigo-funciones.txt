@@ -1,0 +1,57 @@
+
+probar crear canción () {
+
+navegarPaginaDeSinatra ()
+Verificar los elementos de la pagina de sinatra ()
+irSongs ()
+darClicLinkCreaNuevaCancion()
+verificarLosElementosDePaginaAgregarNuevaCancion ()
+llenarElFormulariodeAgregarNuevaCancion ()
+darClicEnGuardarCancion ()
+validarQueSeCreoLaCanción ()
+
+}
+
+    navegarPaginaDeSinatra () {
+        ingresar la URL
+     }
+    Verificar los elementos de la pagina de sinatra () {
+        Validar que se muestre la imagen de sinatra
+        validar que se muestre el link de login
+     }
+    irSongs () {
+        validar el titulo de Songs
+        validar que se muestre link de Create a new song
+        validar que se muestre una lista de canciones
+        validar que se muestre link de log out
+    }
+    darClicLinkCreaNuevaCancion(){
+
+    }
+
+    verificarLosElementosDePaginaAgregarNuevaCancion () {
+        validar que se muestre el titulo de Add A New Song
+        validar que se muestre el campo Titulo
+        validar que se muestre el campo longitud
+        validar que se muestre el campo Fecha(mm/dd/yyyy)
+        validar que se muestre el campo Letra
+        validar que se muestre el boton guardar cancion
+        validar que se muestre link de log out
+    }
+
+    llenarElFormulariodeAgregarNuevaCancion () {
+        Ingresar un titulo
+        Ingresar Longitud
+        Ingresar Fecha
+        Ingresar Letra
+    }
+    darClicEnGuardarCancion () {
+
+    }
+
+    validarQueSeCreoLaCanción () {
+        validar que se muestre el mensaje Canción agregada exitosamente
+        Validar que se muestre el nombre de la creción creada
+        validar que se muestre el link volver al índice de canciones
+        validar que se muestre el boton borrar cancion
+     }

@@ -1,0 +1,13 @@
+contador_Sandwich de jamon es cero
+
+while (numerodeSandwich es menor que 5) {
+    hacerSandwichdeJamon ()
+    sumar uno al contador_Sandwich
+}
+
+contador_Sandwich de Bolonia es cero
+
+while (numerodeSandwich es menor que 5) {
+    hacerSandwichdeBolonia ()
+    sumar uno al contador_Sandwich
+}
